@@ -39,7 +39,7 @@ describe("sum", () => {
 
   // Criar um teste para numeros negativos
 
-  it("Dever retornar -51 quando passamos o array [-1, -5, -10, -45]", () => {
+  it("Dever retornar -51 quando passamos o array [-1, 5, -10, -45]", () => {
     expect(sum([-1, 5, -10, -45])).toBe(-51);
   });
 
