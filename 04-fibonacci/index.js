@@ -1,7 +1,10 @@
 export function fibonacci(value) {
   // implementar logica aqui
-  if (value <= 1) {
-    return value;
-}
-return fibonacci(value -1 ) + fibonacci(value -2)
+  const fib = [0,1]
+  let i = 1
+  while (value > fib.length-1){
+    fib.push(fib[i - 1] + fib[i])
+    i ++ 
+  }
+  return fib[value]
 }
