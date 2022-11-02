@@ -1,5 +1,6 @@
 export function isPrime(value) {
   // implementar logica aqui
+  
   if(value === 1){
     return false
   }else{
